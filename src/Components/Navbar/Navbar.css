@@ -1,115 +1,215 @@
-.navbar{
-    padding:20px 0;
+.navbar {
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar .logo{
-    width:150px;
+.navbar .logo {
+    width: 150px;
 }
 
-.navbar-menu{
+.navbar-menu {
     display: flex;
     list-style: none;
-    gap:20px;
-    color:#49557e;
+    gap: 20px;
+    color: #49557e;
 }
 
-.navbar-right{
+.navbar-right {
     display: flex;
     align-items: center;
-    gap:40px;
+    gap: 40px;
 }
 
-.navbar button{
+.navbar button {
     background: transparent;
     font-size: 16px;
-    color:#49557e;
+    color: #49557e;
     border: 1px solid tomato;
-    padding:10px 30px;
+    padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.navbar button:hover{
+.navbar button:hover {
     background-color: #fff4f2;
 }
 
-.navbar .active{
+.navbar .active {
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
 }
 
-.navbar li{
+.navbar li {
     cursor: pointer;
 }
 
-.navbar-search-icon{
+.navbar-search-icon {
     position: relative;
 }
 
-.navbar-search-icon .dot{
+.navbar-search-icon .dot {
     position: absolute;
     min-width: 10px;
     min-height: 10px;
     background-color: tomato;
     border-radius: 5px;
-    top:-8px;
-    right:-8px;
-
+    top: -8px;
+    right: -8px;
 }
 
-@media(max-width:1050px){
-    .navbar .logo{
-        width:140px;
 
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1050px) {
+
+    .navbar .logo {
+        width: 140px;
     }
-    .navbar-menu{
-        gap:20px;
+
+    .navbar-menu {
+        gap: 20px;
         font-size: 17px;
     }
-    .navbar-right{
+
+    .navbar-right {
         gap: 30px;
     }
-    .navbar-right img{
-        width:22px;
+
+    .navbar-right img {
+        width: 22px;
     }
-    .navbar-right button{
+
+    .navbar-right button {
         padding: 8px 25px;
     }
-
 }
 
-@media(max-width:900px){
-    .navbar .logo{
-        width:120px;
 
+/* =========================
+   SMALL TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+    .navbar .logo {
+        width: 125px;
     }
-    .navbar-menu{
-        gap:15px;
+
+    .navbar-menu {
+        gap: 15px;
         font-size: 16px;
     }
-    .navbar-right{
+
+    .navbar-right {
         gap: 20px;
     }
-    .navbar-right img{
-        width:20px;
+
+    .navbar-right img {
+        width: 20px;
     }
-    .navbar-right button{
+
+    .navbar-right button {
         padding: 7px 20px;
         font-size: 15px;
     }
-
 }
 
-@media(max-width:750px){
-    
-    .navbar-menu{
-        display: none;
-        
-    }
-  
 
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 750px) {
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    /* Hide menu */
+    .navbar-menu {
+        display: none;
+    }
+
+    /* Smaller logo */
+    .navbar .logo {
+        width: 120px;
+    }
+
+    /* Reduce spacing */
+    .navbar-right {
+        gap: 15px;
+    }
+
+    .navbar-right img {
+        width: 20px;
+    }
+
+    /* Smaller sign in button */
+    .navbar-right button {
+        padding: 7px 18px;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar .logo {
+        width: 115px;
+    }
+
+    .navbar-right {
+        gap: 12px;
+    }
+
+    .navbar-right img {
+        width: 19px;
+    }
+
+    .navbar-right button {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL MOBILE
+========================= */
+
+@media (max-width: 360px) {
+
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar .logo {
+        width: 105px;
+    }
+
+    .navbar-right {
+        gap: 10px;
+    }
+
+    .navbar-right img {
+        width: 18px;
+    }
+
+    .navbar-right button {
+        padding: 6px 13px;
+        font-size: 13px;
+    }
 }
