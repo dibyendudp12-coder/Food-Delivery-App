@@ -59,7 +59,11 @@ const Cart = () => {
           </div>
           
         </div>
-        <button onClick={()=>navigate('/order')}>PROCEED TO CHECKOUT</button>
+        {getTotalCartAmount() > 0 && (
+  <button onClick={()=>navigate('/order')}>
+    PROCEED TO CHECKOUT
+  </button>
+)}
       </div>
       <div className="cart-promocode">
         <div>
