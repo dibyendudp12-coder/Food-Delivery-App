@@ -1,16 +1,206 @@
-# React + Vite
+# 🍔 Food Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **Food Delivery Web Application** built with **React.js**. The application provides a smooth food browsing and ordering experience with category-based food exploration, cart management, checkout UI, and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Website:** https://food-delivery-app-4ma9.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Source Code:** https://github.com/dibyendudp12-coder/Food-Delivery-App
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- 🏠 Responsive Home Page
+- 🍕 Explore food by category
+- 🍽️ Browse food items
+- 🛒 Add food items to cart
+- ➕ Increase item quantity
+- ➖ Decrease item quantity
+- 🗑️ Remove items from cart
+- 💰 Dynamic cart total calculation
+- 🔐 Login / Sign Up popup UI
+- 📦 Checkout / Place Order page
+- 📱 Responsive user interface
+- 🔄 Global state management using React Context API
+- ⚡ Fast development setup with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **React Router**
+- **React Context API**
+- **Vite**
+
+### Deployment
+- **Vercel**
+
+### Development Tools
+- **VS Code**
+- **Git**
+- **GitHub**
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/01-home-page.png)
+
+### 🍕 Menu & Food Categories
+![Menu and Food Items](screenshots/02-menu-and-food-items.png)
+
+### 🍽️ Food Items
+![Food Items Grid](screenshots/03-food-items-grid.png)
+
+### 🛒 Empty Cart
+![Empty Cart](screenshots/04-cart-empty.png)
+
+### 🛍️ Cart With Items
+![Cart With Items](screenshots/05-cart-with-items.png)
+
+### 📦 Checkout / Delivery Information
+![Checkout Page](screenshots/06-checkout-page.png)
+
+---
+
+## 🧠 React Concepts Used
+
+- Functional Components
+- Props
+- `useState`
+- `useContext`
+- Context API
+- React Router
+- Event Handling
+- Conditional Rendering
+- Component Reusability
+- State Management
+- Dynamic Rendering
+- Responsive UI Development
+
+---
+
+## 🛒 Cart Functionality
+
+Users can:
+
+1. Add food items to the cart.
+2. Increase or decrease item quantity.
+3. Remove food items.
+4. View selected items.
+5. Calculate the total cart amount dynamically.
+6. Proceed to checkout.
+
+The cart state is managed using **React Context API**.
+
+---
+
+## 📱 Responsive Design
+
+The application is designed for:
+
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📟 Tablet
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/dibyendudp12-coder/Food-Delivery-App.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Food-Delivery-App
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🔮 Future Improvements
+
+The current version focuses on the frontend experience. Planned improvements include:
+
+- 🔐 Complete user authentication
+- 🔑 JWT-based authentication
+- 🗄️ Node.js and Express.js backend
+- 🍔 Dynamic food management
+- 🛒 Server-side cart management
+- 📦 Complete order management
+- 💳 Online payment integration
+- 👨‍💼 Admin dashboard
+- 📊 Order tracking
+- 🔔 Notifications
+
+---
+
+## 📚 What I Learned
+
+While developing this project, I gained practical experience in:
+
+- Building reusable React components
+- Managing application state with Context API
+- Implementing cart functionality
+- Creating responsive layouts
+- Using React Router for navigation
+- Structuring a React application
+- Deploying a frontend application using Vercel
+- Using Git and GitHub for version control
+
+---
+
+## 👨‍💻 Author
+
+### Dibyendu Pal
+
+**B.Tech in Information Technology**
+
+Interested in **Frontend Development, React.js and Full Stack Web Development**.
+
+- 💻 GitHub: https://github.com/dibyendudp12-coder
+- 🔗 LinkedIn: Add your LinkedIn profile here
+
+---
+
+## ⭐ Support
+
+If you found this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is created for **educational and portfolio purposes**.
