@@ -191,7 +191,7 @@ While developing this project, I gained practical experience in:
 Interested in **Frontend Development, React.js and Full Stack Web Development**.
 
 - 💻 GitHub: https://github.com/dibyendudp12-coder
-- 🔗 LinkedIn: Add your LinkedIn profile here
+- 🔗 LinkedIn: www.linkedin.com/in/dibyendu-pal-012855357
 
 ---
 
