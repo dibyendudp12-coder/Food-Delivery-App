@@ -54,7 +54,7 @@ A modern and responsive **Food Delivery Web Application** built with **React.js*
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](01-home-page.png)
+![Home Page](screenshots/01-home-page.png)
 
 ### 🍕 Menu & Food Categories
 ![Menu and Food Items](02-menu-and-food-items.png)
