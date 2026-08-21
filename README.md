@@ -54,22 +54,22 @@ A modern and responsive **Food Delivery Web Application** built with **React.js*
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/01-home-page.png)
+![Home Page](01-home-page.png)
 
 ### 🍕 Menu & Food Categories
-![Menu and Food Items](screenshots/02-menu-and-food-items.png)
+![Menu and Food Items](02-menu-and-food-items.png)
 
 ### 🍽️ Food Items
-![Food Items Grid](screenshots/03-food-items-grid.png)
+![Food Items Grid](03-food-items-grid.png)
 
 ### 🛒 Empty Cart
-![Empty Cart](screenshots/04-cart-empty.png)
+![Empty Cart](04-cart-empty.png)
 
 ### 🛍️ Cart With Items
-![Cart With Items](screenshots/05-cart-with-items.png)
+![Cart With Items](05-cart-with-items.png)
 
 ### 📦 Checkout / Delivery Information
-![Checkout Page](screenshots/06-checkout-page.png)
+![Checkout Page](06-checkout-page.png)
 
 ---
 
